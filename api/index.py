@@ -11,7 +11,7 @@ from datetime import datetime, timedelta
 import math
 
 # --- Environment Variables ---
-MONGO_URI = os.environ.get("MONGO_URI", "mongodb+srv://mewayo8672:mewayo8672@cluster0.ozhvczp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+MONGO_URI = os.environ.get("MONGO_URI", "mongodb+srv://Demo270:Demo270@cluster0.ls1igsg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 TMDB_API_KEY = os.environ.get("TMDB_API_KEY", "7dc544d9253bccc3cfecc1c677f69819")
 ADMIN_USERNAME = os.environ.get("ADMIN_USERNAME", "01875312198")
 ADMIN_PASSWORD = os.environ.get("ADMIN_PASSWORD", "01875312198")
