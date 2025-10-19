@@ -11,15 +11,14 @@ from datetime import datetime, timedelta
 import math
 
 # --- Environment Variables ---
-MONGO_URI = os.environ.get("MONGO_URI", "mongodb+srv://Demo270:Demo270@cluster0.ls1igsg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+MONGO_URI = os.environ.get("MONGO_URI", "mongodb+srv://komaco1291_db_user:Dk4ASk5nBPnRIAuZ@cluster0.vsef3hg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 TMDB_API_KEY = os.environ.get("TMDB_API_KEY", "7dc544d9253bccc3cfecc1c677f69819")
-ADMIN_USERNAME = os.environ.get("ADMIN_USERNAME", "01875312198")
-ADMIN_PASSWORD = os.environ.get("ADMIN_PASSWORD", "01875312198")
-WEBSITE_NAME = os.environ.get("WEBSITE_NAME", "📽 Ctg Movies BD")
+ADMIN_USERNAME = os.environ.get("ADMIN_USERNAME", "akash198")
+ADMIN_PASSWORD = os.environ.get("ADMIN_PASSWORD", "akash198")
+WEBSITE_NAME = os.environ.get("WEBSITE_NAME", "🫦🥵 Prono Hub 🥵🫦")
 
 # --- Telegram Notification Variables (from Vercel Environment Variables) ---
-TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
-TELEGRAM_CHANNEL_ID = os.environ.get("TELEGRAM_CHANNEL_ID")
+TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKENTELEGRAMRAM_CHANNEL_ID = os.environ.get("TELEGRAM_CHANNEL_ID")
 WEBSITE_URL = os.environ.get("WEBSITE_URL") 
 
 # --- App Initialization ---
