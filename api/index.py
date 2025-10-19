@@ -18,8 +18,9 @@ ADMIN_PASSWORD = os.environ.get("ADMIN_PASSWORD", "akash198")
 WEBSITE_NAME = os.environ.get("WEBSITE_NAME", "🫦🥵 Prono Hub 🥵🫦")
 
 # --- Telegram Notification Variables (from Vercel Environment Variables) ---
-TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKENTELEGRAMRAM_CHANNEL_ID = os.environ.get("TELEGRAM_CHANNEL_ID")
-WEBSITE_URL = os.environ.get("WEBSITE_URL") 
+TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
+TELEGRAM_CHANNEL_ID = os.environ.get("TELEGRAM_CHANNEL_ID")
+WEBSITE_URL = os.environ.get("WEBSITE_URL")
 
 # --- App Initialization ---
 PLACEHOLDER_POSTER = "https://via.placeholder.com/400x600.png?text=Poster+Not+Found"
